@@ -93,6 +93,13 @@
                                     <action selector="agregarTapped:" destination="Nvb-0O-PP9" eventType="touchUpInside" id="y93-TS-UdX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5r-2d-pBa">
+                                <rect key="frame" x="268" y="143" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -117,13 +124,14 @@
                     <connections>
                         <outlet property="agregarButton" destination="5XK-A2-PjR" id="aKa-LV-I8T"/>
                         <outlet property="grabarButton" destination="ndS-SL-UmT" id="SOz-LB-1cK"/>
+                        <outlet property="labelTime" destination="e5r-2d-pBa" id="at5-Gp-0IK"/>
                         <outlet property="nombreTextField" destination="G5X-Yx-d6Z" id="zUm-Ze-8mv"/>
                         <outlet property="reproducirButton" destination="iRh-Uc-xoa" id="reg-Ic-2ma"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7iW-Z4-8oT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1871" y="129"/>
+            <point key="canvasLocation" x="1869.5652173913045" y="128.57142857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="woY-zj-Uel">

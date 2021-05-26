@@ -36,7 +36,10 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         let grabacion = grabaciones[indexPath.row]
-        cell.textLabel?.text = grabacion.nombre
+        
+         
+        cell.textLabel?.text = String(grabacion.nombre!) + " Duración:" + String(
+            grabacion.duracion.rounded())
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
